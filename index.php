@@ -52,14 +52,14 @@
           <p>Base Length</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="baselength">
-            <label class="mdl-textfield__label" for="baselength-input">Base Length Here ...</label>
+            <label class="mdl-textfield__label" for="base-length">Base Length Here ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
           <p>Height Length</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="heightlength">
-            <label class="mdl-textfield__label" for="heightlength-input">Height Length Here ...</label>
+            <label class="mdl-textfield__label" for="height-length">Height Length Here ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
