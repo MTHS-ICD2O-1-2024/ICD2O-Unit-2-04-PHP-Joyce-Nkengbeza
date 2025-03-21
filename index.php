@@ -51,14 +51,14 @@
         <form action="answer.php" method="GET">
           <p>Base Length</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="baselength">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="base-length">
             <label class="mdl-textfield__label" for="base-length">Base Length Here ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
           <p>Height Length</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="heightlength">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-length">
             <label class="mdl-textfield__label" for="height-length">Height Length Here ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
