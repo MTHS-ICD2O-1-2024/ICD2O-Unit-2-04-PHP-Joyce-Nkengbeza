@@ -43,7 +43,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/images.jpeg" alt="address image" />
+        <img src="./images/areaoftriangle.png" alt="Area of Triangle Image" />
       </div>
       <div class="page-content-php">
         <div id="area-triangle">
