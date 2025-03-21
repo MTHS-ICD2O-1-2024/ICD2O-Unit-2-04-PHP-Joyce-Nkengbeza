@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- ICS2O-Unit2-03-HTML-MDL -->
+<!-- ICS2O-Unit2-04-HTML-MDL -->
 <html lang="en-ca">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="The Address With PHP" />
+  <meta name="description" content="Area Of Triangle, PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Joyce Nkengbeza" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16new.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>The Address With PHP</title>
+  <title>Area Of Triangle In PHP</title>
 </head>
 
 
@@ -39,7 +39,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">The Adress With PHP</span>
+        <span class="mdl-layout-title">Area Of Triangle, PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -49,23 +49,24 @@
       <br />
       <div class="page-content-php">
         <form action="answer.php" method="GET">
-          <p>Street Name</p>
+          <p>Base Length</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" name="streetname">
-            <label class="mdl-textfield__label" for="streetname-input">Street Name here ...</label>
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="baselength">
+            <label class="mdl-textfield__label" for="baselength-input">Base Length Here ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
-          <p>Street Number</p>
+          <p>Height Length</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="streetnumber">
-            <label class="mdl-textfield__label" for="streetnumber-input">Street Number here ...</label>
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="heightlength">
+            <label class="mdl-textfield__label" for="heightlength-input">Height Length Here ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
             type="submit">
-            Enter
+            Calculate
           </button>
         </form>
       </div>
