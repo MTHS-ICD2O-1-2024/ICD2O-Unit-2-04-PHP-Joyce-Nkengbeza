@@ -54,6 +54,9 @@
           // process
           $area = ($baselength * $heightlength) /2;
           // output 
+          echo "If a Triangle has base length = " . $baselength . " cm and the height = " . $heightlength . " cm:";
+          echo "<br />";
+          echo "<br />";
           echo "The area of the Triangle is " . $area . " cm².";
           ?>
         </div>
